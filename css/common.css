@@ -22,3 +22,17 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+
+
+.gallery {
+  list-style: none;
+  display: flex; /* sau display: grid; */
+  gap: 10px; /* pentru flexbox */
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
